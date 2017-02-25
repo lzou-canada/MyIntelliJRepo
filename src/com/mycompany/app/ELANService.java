@@ -5,6 +5,7 @@ package com.mycompany.app;
  */
 public class ELANService extends Service
 {
+    // add one line to move the Dev2 branch ahead
     public ELANService(String name)
     {
         super(name, ServiceType.SERVICE_TYPE_ELAN);
