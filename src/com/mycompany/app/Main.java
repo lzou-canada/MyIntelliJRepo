@@ -8,5 +8,11 @@ public class Main
     public static void main(String[] args)
     {
         System.out.println("Hello World.");
+
+        CLineService lCLineService = new CLineService("testing cline service");
+
+        lCLineService.Print();
+
+        System.out.println("Done");
     }
 }
