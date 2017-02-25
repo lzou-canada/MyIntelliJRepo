@@ -16,12 +16,13 @@ public enum ServiceType
      * for two or more than two end points
      */
     SERVICE_TYPE_ELAN(2,"E-LAN"),
+    SERVICE_TYPE_L3VPN(3,"L3-VPN"),
     /**
      * This is an IP service with two
      * fixed TDM DS0 end points tansporting
      * TDM data across the IP/MPLS core network
      */
-    SERVICE_TYPE_CLINE(3,"C-Line");
+    SERVICE_TYPE_CLINE(4,"C-Line");
 
     private int index;
     private String name;
