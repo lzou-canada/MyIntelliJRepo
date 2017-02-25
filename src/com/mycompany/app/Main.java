@@ -7,6 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // add one line to test the git branch via IntelliJ
         System.out.println("Hello World.");
 
         CLineService lCLineService = new CLineService("testing cline service");
