@@ -19,4 +19,14 @@ public class Service
         System.out.println("Service name: " + name + ", service type: " + serviceType);
     }
 
+    public String getName()
+    {
+        return name;
+    }
+
+    public ServiceType getServiceType()
+    {
+        return serviceType;
+    }
+
 }
