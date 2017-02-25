@@ -16,6 +16,10 @@ public class Main
 
         lCLineService.Print();
 
-        System.out.println("Done");
+        // change some attributes and then print again
+        lCLineService.Print();
+
+        System.out.println("Excellent IntelliJ ...");
+        System.out.println("Done the experiment!");
     }
 }

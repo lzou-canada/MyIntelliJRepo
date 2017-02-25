@@ -16,7 +16,7 @@ public class Service
 
     public void Print()
     {
-        System.out.println("Service name: " + name + ", service type: " + serviceType);
+        System.out.println("Service name: \"" + name + "\", service type: " + serviceType);
     }
 
     public String getName()
