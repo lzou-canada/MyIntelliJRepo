@@ -7,6 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // move the master branch forward
         // add one line comment to make the master branch ahead of dev
         // add one line to test the git branch via IntelliJ
         System.out.println("Hello World.");
